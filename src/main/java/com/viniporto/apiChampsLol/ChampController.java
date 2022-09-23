@@ -24,9 +24,12 @@ public class ChampController {
 
     @GetMapping("/champs")
     public List<Champ> getChamps(@RequestParam(required = false) String name,
-                                   @RequestParam(required = false) List<String> filters,
-                                   @RequestParam int sortingMethod){ 
+                                 @RequestParam(required = false) List<String> filters,
+                                 @RequestParam(required = false) Integer sortingMethod){ 
         List<Champ> champsList = repository.findAll();
+        if(sortingMethod == null){
+            sortingMethod = 2;
+        }
         if(name == null && filters == null){
             return sortChampsByMethod(champsList, sortingMethod);
         }else if(name != null && filters == null){
