@@ -33,6 +33,10 @@ Projeto desenvolvido com a a inteção de iniciar os estudos na área de API's c
 
 ---
 
+## 🌐 Hospedado em:
+
+[https://api-champs.herokuapp.com/champs](https://api-champs.herokuapp.com/champs)
+
 ## ⚙️ Funcionalidades
 
 - [x] Qualquer um pode consultar informações sobre os campeões do League Of Legends utilizando filtros de:
@@ -140,6 +144,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto esta sobe a licença [MIT](./LICENSE.md).
 
 Feito com ❤️ por Vinícius Porto 👋🏽 [Entre em contato!](https://www.linkedin.com/in/vinicius-porto-9a1996209/)
